@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* light gray background */
+    text-align: center; /* center all elements */
+  }
+  
+  h1, h2 {
+    color: #333; /* dark gray text */
+    margin-bottom: 10px;
+  }
+  
+  form {
+    display: inline-block; /* to center horizontally */
+    max-width: 400px; /* limit form width */
+    margin: 20px auto; /* center form */
+    padding: 20px; /* add some padding */
+    border: 1px solid #ccc; /* light gray border */
+    border-radius: 10px; /* rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* subtle shadow */
+  }
+  
+  input[type="text"], input[type="file"] {
+    width: 90%; /* reduce width to fit inside the box */
+    height: 40px; /* slightly taller */
+    margin: 10px auto; /* center the input field horizontally */
+    padding: 10px; /* add some padding */
+    border: 1px solid #ccc; /* light gray border */
+    border-radius: 5px; /* rounded corners */
+    font-size: 16px; /* increase font size */
+    font-family: Arial, sans-serif; /* match font family with body */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* subtle shadow */
+    display: block; /* make the input field a block element */
+  }
+  
+  button[type="submit"] {
+    background-color: #4CAF50; /* green background */
+    color: #fff; /* white text */
+    padding: 10px 20px; /* add some padding */
+    border: none; /* no border */
+    border-radius: 5px; /* rounded corners */
+    cursor: pointer; /* change cursor on hover */
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #3e8e41; /* darker green on hover */
+  }
+  
+  h2 {
+    margin-top: 20px; /* add some margin to separate sections */
+  }
+  
+  label {
+    display: block; /* make label a block element */
+    margin-bottom: 10px; /* add some margin below label */
+  }
+  
+  /* add auto reply text */
+  body::before {
+    content: "Auto reply text";
+    display: block;
+    margin-bottom: 20px;
+  }
